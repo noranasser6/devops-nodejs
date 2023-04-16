@@ -15,9 +15,6 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- task: PublishCodeCoverageResults@2
-  inputs:
-    summaryFileLocation: 'coverage/cobertura-coverage.xml'
 
 - script: |
     npm install
